@@ -2,7 +2,7 @@ from typing import Any, Dict, SupportsFloat, Tuple
 from envs.env import BaseEnv
 
 
-class CacheOrderEnv(BaseEnv):
+class SelfEnv(BaseEnv):
     def __init__(self, env_id: str, **kwargs):
         # Initialize the CacheOrder environment here
         pass
