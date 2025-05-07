@@ -3,7 +3,8 @@ import torch.nn as nn
 from torch.distributions import Categorical
 
 from buffer.rollout_buffer import RolloutBuffer
-from config import AlgorithmConfig
+from ..config import AlgorithmConfig
+from ..algorithm.base import AlgorithmBase
 
 
 class PPOAlgorithm(AlgorithmBase):
